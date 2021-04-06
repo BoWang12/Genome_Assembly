@@ -1,0 +1,1 @@
+/sonas-hs/ware/hpc/home/bwang/software/lastz-distrib-1.04.03/bin/lastz multiple ../TX2783/TX2783.fa btx623.fa --chain --format=general:name1,strand1,start1,end1,name2,strand2,start2,end2 > sam_lastz.txt

@@ -1,0 +1,1 @@
+/sonas-hs/ware/hpc/home/bwang/software/supernova-1.1.3/supernova-cs/1.1.3/bin/supernova run --id mb73 --sample=S01,S02,S03,S04 --fastqs /sonas-hs/ware/hpc_norepl/data/bwang/10xgenomics/B73/298216 --localcores 32 --localmem 1400

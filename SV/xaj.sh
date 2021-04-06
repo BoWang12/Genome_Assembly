@@ -1,0 +1,1 @@
+/sonas-hs/ware/hpc/home/bwang/software/MUMmer3.23/nucmer --mum -c 1000 -prefix xaj.btx623.mm ../TX2783/TX2783.fa xaj

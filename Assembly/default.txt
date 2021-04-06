@@ -1,0 +1,113 @@
+gridEngineNameOption = -cwd -N
+#gridEngineHoldOption = -hold_jid "WAIT_TAG"
+#utgErrorLimit = 6.5
+gridEnginePropagateCommand = qalter -hold_jid "WAIT_TAG"
+gridEngineThreadsOption = -pe threads THREADS 
+gridEngineArrayOption = -t ARRAY_JOBS
+gridEngineJobID = JOB_ID
+#gridEngineSyncOption = -sync y
+gridEngineTaskID = SGE_TASK_ID
+gridEngineArrayName = ARRAY_NAME
+gridEngineOutputOption = -j y -o
+gridEngineNameToJobIDCommand = 
+shell = /bin/bash
+gridEngineArraySubmitID = $TASK_ID
+gridEngineSubmitCommand = qsub
+
+correctedErrorRate = 0.144
+#errorRate = 0.015
+# original asm settings
+#utgErrorRate = 0.25
+#utgErrorLimit = 6.5 #4.5
+
+corOvlErrorRate = 0.144
+obtOvlErrorRate = 0.144
+utgOvlErrorRate = 0.144
+cnsErrorRate = 0.144
+obtErrorRate = 0.144
+#cnsThreads = 4 #8 #10
+#cnsMemory = 20G #80G
+#obtmhapMemory = 20G #80G
+#obtmhapThreads = 4 #8 #10
+#utgmhapMemory = 20G #80G
+#utgmhapthreads = 4 #8 #10
+
+#cnsPartitions = 300 #100
+#corPartitions = 300 #128
+#corMinCoverage = 4
+
+#merSize=14
+
+#merylMemory = 80 #128000
+#merylThreads = 10
+#oeaMemory = 20G #80G
+#oeaThreads = 4 #8 #10
+#redMemory = 20G #80G
+#redThreads = 4 #8 #10
+#oeaThreads = 4 #8 #10
+#ovsMemory = 20G #80G
+#ovsThreads = 4 #8 #10
+#corovlMemory = 20G #80G
+#corovltHREADS = 4 #8 #10
+#corOutCoverage = 80
+#corovlMemory = 20G #80G
+#obtovlMemory =20G #80G
+#obtovlThreads = 4 #8 #10
+#utgovlMemory = 20G #80G
+#utgovlThreads = 4 #8 #85
+#cormmapMemory = 20G #80G
+#cormmapthreads = 4 #8 #10
+#obtmmapMemory = 20G #80G
+#obtmmapThreads = 4 #8 #10
+#utgmmapMemory = 20G #80G
+#utgmmapThreads = 4 #8 #10
+#ovbThreads = 4 #8 #10
+#ovbMemory = 20G #80G
+
+#correctedErrorRate = 0.035
+
+#ovlStoreMemory = 6400 #8192
+
+# grid info
+#useGrid = 1 #0 
+#scriptOnGrid = 1 #0
+#frgCorrOnGrid = 1 #0
+#ovlCorrOnGrid = 1 #0
+
+#gridOptions = -A assembly
+#gridOptionsScript = -pe threads 32 -l m_mem_free=10G #16
+#gridOptionsConsensus = -pe threads 8 -l m_mem_free=10G #1
+#gridOptionsOverlap = -pe threads 1 -l m_mem_free=10G #2
+#gridOptionsFragmentCorrection = -pe threads 2 -l m_mem_free=10G
+#gridOptionsOverlapCorrection = -pe threads 1 -l m_mem_free=10G
+
+#ovlMemory=8GB --hashload 0.7
+#ovlHashBits = 24 #25
+#ovlThreads = 4 #8 #16 #2
+#ovlHashLoad = 0.80
+#ovlHashBlockLength = 300000000 #20000000
+#ovlRefBlockSize = 2000000 #50000000
+#unitigger = bogart
+#ovlRefBlockLength = 0
+#batOptions = -RS -NS -CS
+#MhapSensitivity= normal
+#MhapMerSize = 14
+#ovsMemory=20G #80G
+#maxThreads = 30
+#ovsThreads = 4 #8 #10
+#stopOnReadQuality=false
+
+# for mer overlapper
+#merCompression = 1
+#merOverlapperSeedBatchSize = 500000
+#merOverlapperExtendBatchSize = 250000
+
+#frgCorrThreads = 16 #2
+#frgCorrBatchSize = 100000
+
+#ovlCorrBatchSize = 100000
+#minReadLength = 3000 #1000 #2000 #3000 #5000 #4000 #3000 #5000 #4000 #3000 #1500
+#minOverlapLength = 500
+
+#cormhapMemory = 80G
+#cormhapThreads = 10

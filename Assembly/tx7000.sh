@@ -1,0 +1,1 @@
+/sonas-hs/ware/hpc/home/bwang/software/ngmlr-0.2.7/ngmlr -t 10 -r /sonas-hs/ware/hpc_norepl/data/bwang/twotest/4genomes/SV2/TX2783/TX2783.fa -q /sonas-hs/ware/hpc_norepl/data/bwang/sorghumpaper/nanopore/TX7000/tx7000.nanopore.fastq -o tx7000.sam -x ont
